@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+       <div id="rollno1">16bit092</div> 
+       <h2 id="rollno">16bit092</h2> 
+       <div class="name1"><p>Mohan</p></div>
+       <div class="name1"><p>Abi</p></div>
+       <form action="">
+        Name : <input type="text" id="rolln">
+       </form>
+       <button onclick="hello()">Submit</button><br>
+
+    </body>
+    <script>
+     function hello()
+     {
+       roll = document.getElementById('rolln').value ;
+       alert(roll + 'success');
+     }
+       document.write('Displayed with the help of document.write');
+       let names = document.getElementsByClassName('name1');
+       console.log(names);//displaying multiple things
+       var rollno = document.getElementById('rollno').innerHTML;
+       console.log(rollno); //displaying roll no.
+       
+    </script>
+</html>
